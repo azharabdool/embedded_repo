@@ -1,3 +1,7 @@
+// Azhar Abdool
+// Tut 1
+// Simple Calculator
+
 # include <stdio.h>
 int main(){
 	int a, b, sum;
@@ -6,7 +10,7 @@ int main(){
 	scanf("%d", &a);
 
 	printf("Enter a value for b: ");
-	scanf("%d", &b);
+	scanf("%d", &b); // fixed error here where a was reassigned so b was never
 
 	sum = a + b;
 
